@@ -19,11 +19,11 @@ This is a solution to the [Interactive card details form challenge on Frontend M
 ### Screenshot
 
 ![](./screenshot.jpg)
-![](./screenshot-modile.jpg)
+![](./screenshot-mobile.jpg)
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://github.com/HassanMak29/frontend-mentor-purchase-details)
 - Live Site URL: [Live site URL](https://your-live-site-url.com)
 
 ## My process

@@ -179,6 +179,7 @@ button {
   border-radius: 1rem;
   background-color: var(--verydarkviolet);
   color: var(--lightgrayishviolet);
+  cursor: pointer;
 }
 
 .confirm-btn {

@@ -88,20 +88,8 @@
             <div class="input-group">
               <label for="exp-month">Exp. Date (MM/YY)</label>
               <div id="expiry-inputs" class="expiry-inputs">
-                <input
-                  id="exp-month"
-                  type="number"
-                  placeholder="MM"
-                  maxlength="2"
-                  min="1"
-                />
-                <input
-                  id="exp-year"
-                  type="number"
-                  placeholder="YY"
-                  maxlength="2"
-                  min="1"
-                />
+                <input id="exp-month" type="number" placeholder="MM" min="1" />
+                <input id="exp-year" type="number" placeholder="YY" min="1" />
               </div>
               <span id="exp-length-error" class="error hidden"
                 >Must enter 2 munber for each field</span
@@ -114,7 +102,6 @@
                 type="number"
                 id="cvc"
                 placeholder="e.g. 123"
-                maxlength="3"
                 min="0"
               />
               <span id="cvc-length-error" class="error hidden"

@@ -60,7 +60,8 @@ cardHolderName.addEventListener("input", function (e) {
 });
 
 expMonth.addEventListener("input", function (e) {
-  e.target.value = e.target.value.slice(0, this.maxLength);
+  const maxLength = 2;
+  e.target.value = e.target.value.slice(0, maxLength);
   expMonth.classList.remove("error-outline");
   if (expMonth.value.length && expYear.value.length) {
     expLengthError.classList.add("hidden");
@@ -74,7 +75,8 @@ expMonth.addEventListener("input", function (e) {
 });
 
 expYear.addEventListener("input", function (e) {
-  e.target.value = e.target.value.slice(0, this.maxLength);
+  const maxLength = 2;
+  e.target.value = e.target.value.slice(0, maxLength);
   expYear.classList.remove("error-outline");
   if (expYear.value.length && expMonth.value.length) {
     expLengthError.classList.add("hidden");
@@ -88,7 +90,8 @@ expYear.addEventListener("input", function (e) {
 });
 
 cvc.addEventListener("input", function (e) {
-  e.target.value = e.target.value.slice(0, this.maxLength);
+  const maxLength = 3;
+  e.target.value = e.target.value.slice(0, maxLength);
   cvc.classList.remove("error-outline");
   cvcLengthError.classList.add("hidden");
   cardCVC.textContent = cvc.value !== "" ? cvc.value : "000";
